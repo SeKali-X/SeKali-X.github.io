@@ -5,26 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Zhansar Zhaparov | Portfolio</title>
 <style>
-<style>
-body { margin: 0; font-family: Arial, sans-serif; background: #000; color: #FFFFFF; }
-header { padding: 2rem; text-align: center; background: #000; }
-nav { margin-top: 1rem; }
-nav a { margin: 0 0.5rem; color:#0af; text-decoration:none; font-size:1.1rem; }
-section { max-width: 900px; margin: auto; padding: 2rem; }
-footer { text-align: center; padding: 1rem; background: #000; margin-top: 3rem; }
+body { 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background: #000; 
+  color:#000; /* Default text = BLACK */
+}
 
-/* ▼ ADD THIS BELOW YOUR CURRENT CSS ▼ */
+h2 { color:#000; } /* Titles stay BLACK */
+p  { color:#fff; } /* Descriptions become WHITE */
+
+header { padding: 2rem; text-align:center; background:#000; }
+nav { margin-top: 1rem; }
+nav a { margin:0 .5rem; color:#0af; text-decoration:none; font-size:1.1rem; }
+section { max-width:900px; margin:auto; padding:2rem; }
+footer { text-align:center; padding:1rem; background:#000; margin-top:3rem; }
+
 .reveal {
-    opacity: 0;
-    transform: translateY(40px) scale(0.97);
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+  opacity:0;
+  transform:translateY(40px) scale(0.97);
+  transition:opacity .9s ease-out, transform .9s ease-out;
 }
 .reveal.visible {
-    opacity: 1;
-    transform: translateY(0) scale(1);
+  opacity:1;
+  transform:translateY(0) scale(1);
 }
 </style>
-</style>
+
 </head>
 <body>
 <header style="position:fixed; top:0; left:0; width:100%; background:#000; padding:0.5rem 1rem; display:flex; justify-content:space-between; align-items:center; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6);"">
@@ -101,7 +108,7 @@ footer { text-align: center; padding: 1rem; background: #000; margin-top: 3rem; 
     <h2>Research & Development</h2>
     <div style="background:#111; padding:1.5rem; border-radius:12px; display:flex; gap:20px; justify-content:center; flex-wrap:wrap; text-align:center;">
      <div style="flex:1 1 350px; max-width:450px;">
-      <img src="SEM.png" alt="Stainless steel comparison on SEM" style="width:100%; border-radius:12px;" />
+      <img src="SEM.png" alt="Corrosion Pit analysis on SEM" style="width:100%; border-radius:12px;" />
       <p style="margin-top:0.5rem;">Waterjet cutting demonstration</p>
     </div>
       
